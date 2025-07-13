@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FilterProcessorTest" tests="5" skipped="1" failures="0" errors="0" timestamp="2025-06-07T19:37:01.795Z" hostname="LAPTOP-H2U5TC4M" time="48.603">
+  <properties/>
+  <testcase name="testUnknownFilterThrows()" classname="FilterProcessorTest" time="3.357"/>
+  <testcase name="testLoGFilter()" classname="FilterProcessorTest" time="17.155"/>
+  <testcase name="testNullInputThrows()" classname="FilterProcessorTest" time="0.001"/>
+  <testcase name="testGaussianBlurSingleThread()" classname="FilterProcessorTest" time="13.361"/>
+  <testcase name="testImageEqualityDimensionOnly()" classname="FilterProcessorTest" time="14.727">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

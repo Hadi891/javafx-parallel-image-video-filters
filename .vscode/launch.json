@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug GUI",
+      "request": "launch",
+      "mainClass": "com.GUI",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "${workspaceFolder}/lib/*"
+      ],
+      "modulePaths": [
+        "${workspaceFolder}/lib"
+      ],
+      "vmArgs": "--module-path=${workspaceFolder}/lib --add-modules=javafx.controls,javafx.fxml,javafx.media,javafx.swing,javafx.graphics -Djava.library.path=${workspaceFolder}/lib/native"
+    }
+  ]
+}
